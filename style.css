@@ -6,15 +6,21 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/*ajustement responsive mobile*/
-img.title{
-    width: 100%;
+/*remplacement des images textes*/
+cite.citation {
+    font-size: 20px;
+    font-weight: bold;
 }
-@media all and (min-width:768px){
-    img.title{
-        width: auto;
-    }    
+span.citation {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
 }
+.title{
+    font-size: 20px;
+}
+/*fin*/
+/*ajustement responsive */
 @media all and (max-width:768px){
     .social{
         display: flex;
@@ -724,6 +730,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
     margin-bottom: 10px;/*ajustement responsive mobile*/
+    margin-top: 25px;
 }
 
 h2 {
