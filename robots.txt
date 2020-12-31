@@ -1,0 +1,5 @@
+User-Agent: * 
+Disallow: /fonts 
+Disallow: /includes
+
+Sitemap: https://tyers77.github.io/AnthonyLeRoy_4_18092020/index.html/sitemap_index.xml
